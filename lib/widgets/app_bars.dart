@@ -28,7 +28,7 @@ class AppBars extends StatelessWidget {
             ),
           ),
           BigText(
-            text: "자유톡",
+            text: "Lorem",
             size: Dimensions.height20,
             color: AppColors.titleColor,
           ),

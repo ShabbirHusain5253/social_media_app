@@ -31,7 +31,7 @@ class TextFieldWidget extends StatelessWidget {
           const Expanded(
             child: TextField(
               decoration: InputDecoration(
-                labelText: "댓글을 남겨주세요.",
+                labelText: "Lorem Ipsum",
                 labelStyle: TextStyle(color: AppColors.textFieldColor),
                 focusColor: AppColors.mainColor,
                 border: InputBorder.none,
@@ -49,7 +49,7 @@ class TextFieldWidget extends StatelessWidget {
                   bottom: Dimensions.height10,
                 ),
                 child: SmallText(
-                  text: "등록",
+                  text: "Lorem",
                   size: Dimensions.height16,
                   color: AppColors.textFieldColor,
                 )),

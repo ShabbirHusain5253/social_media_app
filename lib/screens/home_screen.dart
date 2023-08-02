@@ -32,8 +32,8 @@ class HomeScreen extends StatelessWidget {
           children: [
             const AppBars(),
             ProfileBadge(
-              text: "안녕 나 응애",
-              subText: "1일전",
+              text: "Lorem",
+              subText: "Ipsum",
               features: "165cm . 53Kg",
               isFeatureVisile: true,
               profileImage: "assets/image/자산 9.png",
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(Dimensions.radius20),
                 ),
                 child: Text(
-                  "팔로우",
+                  "Lorem",
                   style: TextStyle(
                     color: Colors.white,
                     fontFamily: 'NotoSans',
@@ -60,13 +60,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const PostContent(
-              title: "지난 월요일에 했던 이벤트 중 가장 괜찮은 상품 뭐야?",
+              title:
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
               descripiton:
-                  '''지난 월요일에 2023년 S/S 트렌드 알아보기 이벤트 참석했던 팝들아~혹시 어떤 상품이 제일 괜찮았어?
+                  '''Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             
-후기 올라오는거 보면 로우라이즈? 그게 제일 반응 좋고 그 테이블이제일 재밌었다던데 맞아???
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
             
-올해 로우라이즈가 트렌드라길래 나도 도전해보고 싶은데 말라깽이가 아닌 사람들도 잘 어울릴지 너무너무 궁금해ㅜㅜ로우라이즈 테이블에 있었던 팝들 있으면 어땠는지 후기 좀 공유해주라~~!''',
+ but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages''',
             ),
             Container(
               padding: EdgeInsets.only(
@@ -89,8 +90,8 @@ class HomeScreen extends StatelessWidget {
             ),
             const DividerWidget(),
             ProfileBadge(
-              text: "안녕 나 응애 ",
-              subText: "1일전",
+              text: "Lorem ",
+              subText: "Ipsum",
               features: "",
               isFeatureVisile: false,
               profileImage: "assets/image/자산 9.png",
@@ -106,11 +107,9 @@ class HomeScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SmallText(
-                    text: '''어머 제가 있던 테이블이 제일 반응이 좋았나보네요🤭 
-우짤래미님도 아시겠지만 저도 일반인 몸매 그 이상도 이하
-아니잖아요?! 그런 제가 기꺼이 도전해봤는데 생각보다
-괜찮았어요! 오늘 중으로 라이브 리뷰 올라온다고 하니
-꼭 봐주세용~!''',
+                    text: '''Lorem Ipsum is simply dummy text of the printing 
+and typesetting industry. Lorem Ipsum has been the industry's 
+standard dummy text ever since the 1500s''',
                     size: Dimensions.height14,
                   ),
                   Row(
@@ -132,8 +131,8 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   ProfileBadge(
-                    text: "ㅇㅅㅇ ",
-                    subText: "1일전",
+                    text: "Lorem ",
+                    subText: "Ipsum",
                     features: "",
                     isFeatureVisile: false,
                     profileImage: "assets/image/자산 10.png",
@@ -142,7 +141,8 @@ class HomeScreen extends StatelessWidget {
                     isVerified: false,
                   ),
                   SmallText(
-                    text: '''오 대박! 라이브 리뷰 오늘 올라온대요? 챙겨봐야겠다''',
+                    text:
+                        '''Lorem Ipsum is simply dummy text of the printing and typesetting industry.''',
                     size: Dimensions.height14,
                   ),
                   Row(
